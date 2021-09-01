@@ -1,0 +1,28 @@
+#dayeon-sig {
+  width: 250px;
+  height: 150px;
+  background: url("https://images2.imgbox.com/4e/5a/MQd177jo_o.png");
+  margin: auto;
+  position: relative;
+  outline: 1px solid white;
+  outline-offset: 5px;
+}
+.dsig-content {
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  background: url("https://images2.imgbox.com/f0/32/VPM6Cd3T_o.png");
+  opacity: 0;
+  transition: 1s all linear;
+}
+#dayeon-sig:hover .dsig-content {
+  opacity: 1;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 8px;
+  font-family: "Calibri";
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
